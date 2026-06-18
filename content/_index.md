@@ -1,5 +1,5 @@
 ---
-title: Hextra Theme
+title: Tung-Documentation
 layout: hextra-home
 ---
 
@@ -12,5 +12,22 @@ layout: hextra-home
   Tung Tran <br/>Cyber & Creativity
 {{< /hextra/hero-headline >}}
 
+---
+
 {{< hextra/hero-button text="Get Started" link="/docs/" >}}
+
+##Projects & Hubs
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card 
+    title="Cyber Security" 
+    subtitle="Exploring pentesting, defense architectures, and system hardening." 
+    link="/docs/cyber"
+  >}}
+  {{< hextra/feature-card 
+    title="Creative Coding" 
+    subtitle="Design, front-end experiments, and unique digital aesthetic spaces." 
+    link="/docs/creativity"
+  >}}
+{{< /hextra/feature-grid >}}
 
