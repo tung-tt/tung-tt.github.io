@@ -16,7 +16,7 @@ toc: true
 
 &nbsp;
 
-{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; [{{< icon name="github" className="h-9 w-9 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://github.com/yourusername) &emsp; [{{< icon name="linkedin" className="h-9 w-9 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://linkedin.com/in/yourusername)
+{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; [{{< icon name="github" className="h-12 w-12 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://github.com/yourusername) &emsp; [{{< icon name="linkedin" className="h-12 w-12 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://linkedin.com/in/yourusername)
 
 &nbsp;
 &nbsp;
