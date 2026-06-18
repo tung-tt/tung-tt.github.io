@@ -1,5 +1,6 @@
 ---
 title: Tung-Documentation
+layout: hextra-home
 ---
 
 {{< hextra/hero-badge >}}
@@ -8,7 +9,7 @@ title: Tung-Documentation
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-headline >}}
-  Tung Tran <br/>Cyber & Creativity
+  Tung Tran&nbsp;<br class="hx:sm:block hx:hidden" />Cyber & Creativity
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
