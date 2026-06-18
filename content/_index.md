@@ -1,6 +1,7 @@
 ---
 title: Tung Docs
 layout: hextra-home
+toc: true
 ---
 
 {{< hextra/hero-headline >}}
