@@ -17,6 +17,8 @@ toc: true
 &nbsp;
 
 {{< hextra/hero-button text="Documentation" link="docs" >}}
+{{< hextra/hero-button text="GitHub" link="https://github.com/tung-tt" variant="outline" >}}
+{{< hextra/hero-button text="LinkedIn" link="https://linkedin.com/in/tungotran" variant="outline" >}}
 
 &nbsp;
 &nbsp;
@@ -50,7 +52,7 @@ I started self-teaching myself firstly off of online resources such as TryHackMe
 
 &nbsp;
 
-{{< hextra/feature-grid >}}
+{{< hextra/feature-grid cols="2" >}}
   {{< hextra/feature-card 
     title="Certifications & Badges" 
     subtitle="CompTIA Security+, Google IT Support Professional, Python MOOC" 
