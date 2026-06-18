@@ -13,8 +13,8 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
-  Line 1 \
-  Line 2
+  Hi! My name is Tung Tran, a 25 year old Cybersecurity enthusiast and Developer based in the DMV area\
+  Looking for roles in Cybersecurity Defensive Operations, including SOC, Incident Response, and Threat Hunting.
 {{< /hextra/hero-subtitle >}}
 
 &nbsp;
@@ -38,7 +38,7 @@ layout: hextra-home
   
   {{< hextra/feature-card 
     title="About Me" 
-    subtitle="I'm Tung Tran, a 25 year old Cybersecurity enthusiast and Developer." 
+    subtitle="I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace. Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️)" 
     class="hx:col-span-2"
   >}}
 {{< /hextra/feature-grid >}}
@@ -48,7 +48,7 @@ layout: hextra-home
 
 ### About Me
 
-I'm Tung Tran, a 25 year old Cybersecurity enthusiast and Developer.
+I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace. Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️
 
 
 
