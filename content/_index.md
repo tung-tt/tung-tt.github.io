@@ -31,6 +31,8 @@ layout: hextra-home
     link="/docs"
   >}}
 {{< /hextra/feature-grid >}}
+>
+&nbsp;
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
@@ -39,6 +41,8 @@ layout: hextra-home
     link="/docs"
   >}}
 {{< /hextra/feature-grid >}}
+>
+&nbsp;
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
