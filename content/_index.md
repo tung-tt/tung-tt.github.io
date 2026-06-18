@@ -14,7 +14,10 @@ toc: true
   Looking for roles in Cybersecurity Defensive Operations, including SOC, Incident Response, and Threat Hunting.
 {{< /hextra/hero-subtitle >}}
 
-{{< hextra/hero-button text="Documentation" link="docs" >}} &esmp; [{{< icon name="github" >}}](https://github.com/tung-tt) &emsp; [{{< icon name="linkedin" >}}](https://linkedin.com/in/tungotran)
+{{< hextra/hero-button text="Documentation" link="docs" >}} 
+<span class="text-3xl">
+  [{{< hextra/icon name="github" >}}](https://github.com/tung-tt) &emsp; [{{< hextra/icon name="linkedin" >}}](https://linkedin.com/in/tungotran)
+</span>
 &nbsp;
 
 &nbsp;
