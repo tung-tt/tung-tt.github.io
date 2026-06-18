@@ -16,27 +16,31 @@ toc: true
 
 &nbsp;
 
-{{< hextra/hero-button text="Documentation" link="docs" >}} &ebsp;
-<span style="font-size: 3rem; display: inline-flex; align-items: center; gap: 2rem;">
-  [{{< icon name="github" >}}](https://github.com/yourusername) [{{< icon name="linkedin" >}}](https://linkedin.com/in/yourusername)
-</span>
+<div style="display: flex; align-items: center; gap: 1.5rem; margin-top: 1.5rem;">
+  {{< hextra/hero-button text="Documentation" link="docs" >}}
+  <span style="display: inline-flex; gap: 1.5rem; --mdc-icon-size: 2.25rem;">
+    <a href="https://github.com/yourusername" style="display: inline-flex;" class="[&_svg]:w-9 [&_svg]:h-9 [&_svg]:fill-current text-neutral-400 hover:text-white transition-colors">{{< icon name="github" >}}</a>
+    <a href="https://linkedin.com/in/yourusername" style="display: inline-flex;" class="[&_svg]:w-9 [&_svg]:h-9 [&_svg]:fill-current text-neutral-400 hover:text-white transition-colors">{{< icon name="linkedin" >}}</a>
+  </span>
+</div>
+
 &nbsp;
 
 &nbsp;
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
-    title="Cyber Security Documentation" 
+    title="🛡️ Cyber Security Documentation" 
     subtitle="Exploring pentesting, defense architectures, and system hardening." 
     link="/docs"
   >}}
   {{< hextra/feature-card 
-    title="Homelab Architecture" 
+    title="🔬 Homelab Architecture" 
     subtitle="My topography as I further deploy more features and labs." 
     link="/docs"
   >}}
   {{< hextra/feature-card 
-    title="Blog & Discoveries" 
+    title="📝 Blog & Discoveries" 
     subtitle="Follow along my journey as I learn new concepts and threats." 
     link="/docs"
   >}}
@@ -59,12 +63,12 @@ Initially I wanted to just add some services such as DNS blocking, a NAS, or wha
 
 {{< hextra/feature-grid cols="2" >}}
   {{< hextra/feature-card 
-    title="Certifications & Badges" 
+    title="🏅 Certifications & Badges" 
     subtitle="CompTIA Security+, Google IT Support Professional, Python MOOC" 
     link="/docs"
   >}}
   {{< hextra/feature-card 
-    title="Tech Stack" 
+    title="📚 Tech Stack" 
     subtitle="SIEM (Splunk), EDR (Wazuh), PFSense, Linux/Windows Server" 
     link="/docs"
   >}}
