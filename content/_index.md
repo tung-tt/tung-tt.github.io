@@ -16,10 +16,9 @@ toc: true
 
 &nbsp;
 
-{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; [{{< icon name="github" >}}](https://github.com/tung-tt){: class="inline-flex align-middle text-neutral-400 hover:text-white transition-colors h-9 w-9 [&_svg]:h-9 [&_svg]:w-9" } &emsp; [{{< icon name="linkedin" >}}](https://linkedin.com/in/tungotran){: class="inline-flex align-middle text-neutral-400 hover:text-white transition-colors h-9 w-9 [&_svg]:h-9 [&_svg]:w-9" }
+{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; <a href="https://github.com/yourusername" style="display: inline-flex; align-middle: middle; text-decoration: none; width: 36px; height: 36px; vertical-align: middle; fill: currentColor; color: #a3a3a3;"><style>[data-icon="github"] svg, .icon-github svg, a svg { width: 36px; height: 36px; display: inline-block; vertical-align: middle; }</style>{{< icon name="github" >}}</a> &emsp; <a href="https://linkedin.com/in/yourusername" style="display: inline-flex; align-middle: middle; text-decoration: none; width: 36px; height: 36px; vertical-align: middle; fill: currentColor; color: #a3a3a3;">{{< icon name="linkedin" >}}</a>
 
 &nbsp;
-
 &nbsp;
 
 {{< hextra/feature-grid >}}
