@@ -16,9 +16,11 @@ toc: true
 
 &nbsp;
 
-{{< hextra/hero-button text="Documentation" link="docs" >}}
-{{< hextra/hero-button text="GitHub" link="https://github.com/tung-tt" variant="outline" >}}
-{{< hextra/hero-button text="LinkedIn" link="https://linkedin.com/in/tungotran" variant="outline" >}}
+<div class="flex flex-wrap gap-4 mt-6 mb-12">
+  {{< hextra/hero-button text="Documentation" link="docs" >}}
+  {{< hextra/hero-button text="GitHub" link="https://github.com/yourusername" variant="outline" >}}
+  {{< hextra/hero-button text="LinkedIn" link="https://linkedin.com/in/yourusername" variant="outline" >}}
+</div>
 
 &nbsp;
 &nbsp;
