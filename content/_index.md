@@ -23,7 +23,7 @@ toc: true
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
-    title="🐟 Cyber Security Documentation" 
+    title="🐟 Cybersecurity Documentation" 
     subtitle="Exploring pentesting, defense architectures, and system hardening." 
     link="/docs"
   >}}
