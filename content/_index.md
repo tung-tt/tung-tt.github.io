@@ -9,16 +9,22 @@ layout: hextra-home
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-headline >}}
-  Tung Tran
+  Tung Tran \
   Cyber & Creativity
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
-  Line 1
+  Line 1 \
   Line 2
 {{< /hextra/hero-subtitle >}}
 
+&nbsp;
+&nbsp;
+
 {{< hextra/hero-button text="Documentation" link="docs" >}}
+
+&nbsp;
+&nbsp;
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
