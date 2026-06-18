@@ -12,10 +12,9 @@ layout: hextra-home
   Tung Tran <br/>Cyber & Creativity
 {{< /hextra/hero-headline >}}
 
-<!-- This creates a safe, massive 4rem (64px) vertical gap before your next section -->
-<div class="py-4"></div>
-
-{{< hextra/hero-button text="Get Started" link="/docs/" >}}
+<div class="hx:mb-6">
+{{< hextra/hero-button text="Get Started" link="docs" >}}
+</div>
 
 <!-- This creates a safe, massive 4rem (64px) vertical gap before your next section -->
 <div class="py-16"></div>
