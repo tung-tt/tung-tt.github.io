@@ -9,12 +9,11 @@ theme = 'hextra'
         name = "Docs"
         pageRef = "/docs"
         weight = 1
-    
+
     [[menu.main]]
-        name = "Search"
+        name = "Blog"
+        pageRef = "/blog"
         weight = 2
-        [menu.main.params]
-            type = "search"
     
     [[menu.main]]
         name = "Github"
@@ -22,3 +21,9 @@ theme = 'hextra'
         weight = 3
         [menu.main.params]
             icon = "github"
+    
+    [[menu.main]]
+        name = "Search"
+        weight = 4
+        [menu.main.params]
+            type = "search"
