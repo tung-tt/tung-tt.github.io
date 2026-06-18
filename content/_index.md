@@ -20,8 +20,6 @@ toc: true
 
 &nbsp;
 &nbsp;
-&nbsp;
-&nbsp;
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
@@ -43,8 +41,6 @@ toc: true
 
 &nbsp;
 &nbsp;
-&nbsp;
-&nbsp;
 
 {{< hextra/hero-headline >}}
   About Me
@@ -52,6 +48,21 @@ toc: true
 
 I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace. Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️
 
+&nbsp;
 
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card 
+    title="Certifications & Badges" 
+    subtitle="CompTIA Security+, Google IT Support Professional, Python MOOC" 
+    link="/docs"
+  >}}
+  {{< hextra/feature-card 
+    title="Tech Stack" 
+    subtitle="SIEM (Splunk), EDR (Wazuh), PFSense, Linux/Windows Server" 
+    link="/docs"
+  >}}
+{{< /hextra/feature-grid >}}
 
+&nbsp;
+&nbsp;
 
