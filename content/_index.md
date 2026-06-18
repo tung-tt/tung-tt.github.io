@@ -54,16 +54,18 @@ toc: true
 
 &nbsp;
 
-### 🏅 Certifications & Badges
+## 🏅 Certifications & Badges
 * CompTIA Security+
 * Google IT Support Professional
 * Python MOOC
 
-### 📚 Tech Stack
+&nbsp;
+
+## 📚 Tech Stack
 * **SIEM:** Splunk
 * **EDR:** Wazuh
 * **Network:** pfSense
-* **OS:** Linux & Windows Server
+* **OS:** Linux, Windows, MacOs
 
 &nbsp;
 
