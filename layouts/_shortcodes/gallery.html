@@ -1,0 +1,9 @@
+{{- /* A container block for gallery-item shortcodes. @param {string} span Grid layout mode: "mosaic" (default) or "equal". */ -}}
+{{- $span := .Get "span" | default "mosaic" -}}
+{{- $class := "hextra-gallery" -}}
+{{- if eq $span "equal" -}}
+  {{- $class = printf "%s hextra-gallery--equal" $class -}}
+{{- end -}}
+<div class="{{ $class }}">
+  {{- .Inner -}}
+</div>
