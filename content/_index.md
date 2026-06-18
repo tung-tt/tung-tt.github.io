@@ -2,15 +2,14 @@
 title: Tung-Documentation
 layout: hextra-home
 ---
-
 {{< hextra/hero-badge >}}
-  <span>Development Hub</span>
+  <span>💻 Development Hub</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-headline >}}
   Tung Tran \
-  Cyber & Creativity
+  Cybersecurity & Creativity
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
@@ -18,7 +17,6 @@ layout: hextra-home
   Line 2
 {{< /hextra/hero-subtitle >}}
 
-&nbsp;
 &nbsp;
 
 {{< hextra/hero-button text="Documentation" link="docs" >}}
@@ -37,4 +35,21 @@ layout: hextra-home
     subtitle="Design, front-end experiments, and unique digital aesthetic spaces." 
     link="/docs"
   >}}
+  
+  {{< hextra/feature-card 
+    title="About Me" 
+    subtitle="I'm Tung Tran, a 25 year old Cybersecurity enthusiast and Developer." 
+    class="hx:col-span-2"
+  >}}
 {{< /hextra/feature-grid >}}
+
+&nbsp;
+&nbsp;
+
+### About Me
+
+I'm Tung Tran, a 25 year old Cybersecurity enthusiast and Developer.
+
+
+
+
