@@ -2,10 +2,6 @@
 title: Tung-Documentation
 layout: hextra-home
 ---
-{{< hextra/hero-badge >}}
-  <span>🔵 Development Hub</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
 
 {{< hextra/hero-headline >}}
   Tung Tran \
@@ -30,21 +26,11 @@ layout: hextra-home
     subtitle="Exploring pentesting, defense architectures, and system hardening." 
     link="/docs"
   >}}
-{{< /hextra/feature-grid >}}
->
-&nbsp;
-
-{{< hextra/feature-grid >}}
   {{< hextra/feature-card 
     title="Homelab Architecture" 
     subtitle="My topography as I further deploy more features and labs." 
     link="/docs"
   >}}
-{{< /hextra/feature-grid >}}
->
-&nbsp;
-
-{{< hextra/feature-grid >}}
   {{< hextra/feature-card 
     title="Blog & Discoveries" 
     subtitle="Follow along my journey as I learn new concepts and threats." 
