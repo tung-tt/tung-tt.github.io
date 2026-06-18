@@ -14,10 +14,7 @@ toc: true
   Looking for roles in Cybersecurity Defensive Operations, including SOC, Incident Response, and Threat Hunting.
 {{< /hextra/hero-subtitle >}}
 
-&nbsp;
-
-{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; {{< hextra/hero-button text="GitHub" link="https://github.com/yourusername" variant="outline" >}} &emsp; {{< hextra/hero-button text="LinkedIn" link="https://linkedin.com/in/yourusername" variant="outline" >}}
-
+{{< hextra/hero-button text="Documentation" link="docs" >}} &esmp; [{{< icon name="github" >}}](https://github.com/tung-tt) &emsp; [{{< icon name="linkedin" >}}](https://linkedin.com/in/tungotran)
 &nbsp;
 
 &nbsp;
@@ -48,7 +45,8 @@ toc: true
   About Me
 {{< /hextra/hero-headline >}}
 
-I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace. Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️
+I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace.\ 
+Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️)
 
 &nbsp;
 
