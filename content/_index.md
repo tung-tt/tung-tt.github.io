@@ -16,13 +16,7 @@ toc: true
 
 &nbsp;
 
-<div style="display: flex; align-items: center; gap: 1.5rem; margin-top: 1.5rem;">
-  {{< hextra/hero-button text="Documentation" link="docs" >}}
-  <span style="display: inline-flex; gap: 1.5rem; --mdc-icon-size: 2.25rem;">
-    <a href="https://github.com/yourusername" style="display: inline-flex;" class="[&_svg]:w-9 [&_svg]:h-9 [&_svg]:fill-current text-neutral-400 hover:text-white transition-colors">{{< icon name="github" >}}</a>
-    <a href="https://linkedin.com/in/yourusername" style="display: inline-flex;" class="[&_svg]:w-9 [&_svg]:h-9 [&_svg]:fill-current text-neutral-400 hover:text-white transition-colors">{{< icon name="linkedin" >}}</a>
-  </span>
-</div>
+{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; [{{< icon name="github" >}}](https://github.com/tung-tt){: class="inline-flex align-middle text-neutral-400 hover:text-white transition-colors h-9 w-9 [&_svg]:h-9 [&_svg]:w-9" } &emsp; [{{< icon name="linkedin" >}}](https://linkedin.com/in/tungotran){: class="inline-flex align-middle text-neutral-400 hover:text-white transition-colors h-9 w-9 [&_svg]:h-9 [&_svg]:w-9" }
 
 &nbsp;
 
@@ -30,12 +24,12 @@ toc: true
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
-    title="🛡️ Cyber Security Documentation" 
+    title="🐟 Cyber Security Documentation" 
     subtitle="Exploring pentesting, defense architectures, and system hardening." 
     link="/docs"
   >}}
   {{< hextra/feature-card 
-    title="🔬 Homelab Architecture" 
+    title="🧑‍💻 Homelab Architecture" 
     subtitle="My topography as I further deploy more features and labs." 
     link="/docs"
   >}}
