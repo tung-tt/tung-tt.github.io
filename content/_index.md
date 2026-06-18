@@ -16,7 +16,7 @@ toc: true
 
 &nbsp;
 
-{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; <a href="https://github.com/yourusername" style="display: inline-flex; align-middle: middle; text-decoration: none; width: 36px; height: 36px; vertical-align: middle; fill: currentColor; color: #a3a3a3;"><style>[data-icon="github"] svg, .icon-github svg, a svg { width: 36px; height: 36px; display: inline-block; vertical-align: middle; }</style>{{< icon name="github" >}}</a> &emsp; <a href="https://linkedin.com/in/yourusername" style="display: inline-flex; align-middle: middle; text-decoration: none; width: 36px; height: 36px; vertical-align: middle; fill: currentColor; color: #a3a3a3;">{{< icon name="linkedin" >}}</a>
+{{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; [{{< icon name="github" className="h-9 w-9 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://github.com/yourusername) &emsp; [{{< icon name="linkedin" className="h-9 w-9 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://linkedin.com/in/yourusername)
 
 &nbsp;
 &nbsp;
@@ -48,6 +48,7 @@ toc: true
 {{< /hextra/hero-headline >}}
 
 I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace.  
+
 Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️)
 
 &nbsp;
