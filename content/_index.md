@@ -26,13 +26,24 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
-    title="Cyber Security" 
+    title="Cyber Security Documentation" 
     subtitle="Exploring pentesting, defense architectures, and system hardening." 
     link="/docs"
   >}}
+{{< /hextra/feature-grid >}}
+
+{{< hextra/feature-grid >}}
   {{< hextra/feature-card 
-    title="Creative Coding" 
-    subtitle="Design, front-end experiments, and unique digital aesthetic spaces." 
+    title="Homelab Architecture" 
+    subtitle="My topography as I further deploy more features and labs." 
+    link="/docs"
+  >}}
+{{< /hextra/feature-grid >}}
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card 
+    title="Blog & Discoveries" 
+    subtitle="Follow along my journey as I learn new concepts and threats." 
     link="/docs"
   >}}
 {{< /hextra/feature-grid >}}
