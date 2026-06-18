@@ -1,6 +1,5 @@
 ---
 title: Tung-Documentation
-layout: hextra-home
 ---
 
 {{< hextra/hero-badge >}}
@@ -13,8 +12,7 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
-  Line 1
-  Line 2
+  Line 1<br/> Line 2
 {{< /hextra/hero-subtitle >}}
 
 
