@@ -1,8 +1,7 @@
 ---
-title: "Tung-Documentation"
-layout: "hextra-home"
+title: Tung Docs
+layout: hextra-home
 ---
-
 
 {{< hextra/hero-headline >}}
   Tung Tran \
