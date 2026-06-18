@@ -20,6 +20,8 @@ toc: true
 
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
@@ -39,6 +41,8 @@ toc: true
   >}}
 {{< /hextra/feature-grid >}}
 
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 
