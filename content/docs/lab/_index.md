@@ -1,4 +1,4 @@
-+++
-title = "Lab"
-description = "My lab page"
-+++
+---
+title : "Lab"
+description : "My lab page"
+---
