@@ -1,10 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tungtran.studio – tungtran.studio</title>
+    <title>Tung Tran Development Studio – Tung Tran Development Studio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on tungtran.studio</description>
+    <description>Recent content on Tung Tran Development Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2026 09:27:44 -0400</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     

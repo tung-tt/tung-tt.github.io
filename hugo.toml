@@ -1,4 +1,24 @@
 baseURL = 'https://tung-tt.github.io/'
 locale = 'en-us'
-title = 'tungtran.studio'
+title = 'Tung Tran Development Studio'
 theme = 'hextra'
+
+[menu]
+
+    [[menu.main]]
+        name = "Docs"
+        pageRef = "/docs"
+        weight = 1
+    
+    [[menu.main]]
+        name = "Search"
+        weight = 2
+        [menu.main.params]
+            type = "search"
+    
+    [[menu.main]]
+        name = "Github"
+        url = "https://github.com/tung-tt"
+        weight = 3
+        [menu.main.params]
+            icon = "github"

@@ -1,10 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tungtran.studio – Posts</title>
+    <title>Tung Tran Development Studio – Posts</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on tungtran.studio</description>
+    <description>Recent content in Posts on Tung Tran Development Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2026 09:06:21 -0400</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +14,19 @@
         
       
     
+    
+    <item>
+      <title>Homelab Architecture</title>
+      <link>http://localhost:1313/posts/homelab-architecture/</link>
+      <pubDate>Thu, 18 Jun 2026 09:06:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/homelab-architecture/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
     
   </channel>
 </rss>
