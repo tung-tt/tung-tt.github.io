@@ -16,8 +16,8 @@ toc: true
 
 &nbsp;
 
-{{< hextra/hero-button text="Documentation" link="docs" >}} 
-<span style="font-size: 2rem; display: inline-flex; align-items: center; gap: 1.5rem;">
+{{< hextra/hero-button text="Documentation" link="docs" >}} &ebsp;
+<span style="font-size: 3rem; display: inline-flex; align-items: center; gap: 2rem;">
   [{{< icon name="github" >}}](https://github.com/yourusername) [{{< icon name="linkedin" >}}](https://linkedin.com/in/yourusername)
 </span>
 &nbsp;
