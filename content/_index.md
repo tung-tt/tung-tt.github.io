@@ -10,10 +10,10 @@ layout: hextra-home
 
 <div>
 {{< hextra/hero-headline >}}
-Tung Tran&nbsp;<br/>Cyber & Creativity
+  Tung Tran <br/>Cyber & Creativity
 {{< /hextra/hero-headline >}}
 </div>
 
 <div>
-{{< hextra/hero-button text="Get Started" link="docs" >}}
+{{< hextra/hero-button text="Get Started" link="/docs/" >}}
 </div>
