@@ -1,12 +1,12 @@
 baseURL = 'https://tung-tt.github.io/'
 locale = 'en-us'
-title = 'Tung-Documentation'
+title = 'Tung Tran - 2026'
 theme = 'hextra'
 
 [menu]
 
     [[menu.main]]
-        name = "Docs"
+        name = "Documentation"
         pageRef = "/docs"
         weight = 1
 
@@ -27,3 +27,10 @@ theme = 'hextra'
         weight = 4
         [menu.main.params]
             type = "search"
+            
+    # The Dark/Light Mode Toggle Button
+    [[menu.main]]
+        name = "Theme Toggle"
+        weight = 5
+        [menu.main.params]
+            type = "theme-toggle"
