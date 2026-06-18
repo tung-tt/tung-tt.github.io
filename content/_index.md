@@ -13,10 +13,14 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 
 ---
+---
 
 {{< hextra/hero-button text="Get Started" link="/docs/" >}}
 
-##Projects & Hubs
+---
+---
+
+## Projects & Hubs
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card 
