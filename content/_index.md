@@ -3,7 +3,7 @@ title: Tung-Documentation
 layout: hextra-home
 ---
 {{< hextra/hero-badge >}}
-  <span>💻 Development Hub</span>
+  <span>🔵 Development Hub</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
@@ -34,14 +34,6 @@ layout: hextra-home
     title="Creative Coding" 
     subtitle="Design, front-end experiments, and unique digital aesthetic spaces." 
     link="/docs"
-  >}}
-{{< /hextra/feature-grid >}}
-
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card 
-    title="About Me" 
-    subtitle="I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace. Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️)" 
-    class="hx:col-span-2"
   >}}
 {{< /hextra/feature-grid >}}
 
