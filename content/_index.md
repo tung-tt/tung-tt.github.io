@@ -54,30 +54,20 @@ toc: true
 
 &nbsp;
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+{{< hextra/feature-grid cols="2" >}}
+  {{% hextra/card title="🏅 Certifications & Badges" link="/docs" %}}
+  * CompTIA Security+
+  * Google IT Support Professional
+  * Python MOOC
+  {{% /hextra/card %}}
 
-  <!-- Card 1: Certifications -->
-  <div class="p-6 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900/50">
-    <h3 class="text-lg font-bold mb-3 flex items-center gap-2">🏅 Certifications & Badges</h3>
-    <ul class="list-disc list-inside space-y-1 text-sm text-neutral-500 dark:text-neutral-400">
-      <li>CompTIA Security+</li>
-      <li>Google IT Support Professional</li>
-      <li>Python MOOC</li>
-    </ul>
-  </div>
-
-  <!-- Card 2: Tech Stack -->
-  <div class="p-6 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900/50">
-    <h3 class="text-lg font-bold mb-3 flex items-center gap-2">📚 Tech Stack</h3>
-    <ul class="list-disc list-inside space-y-1 text-sm text-neutral-500 dark:text-neutral-400">
-      <li><strong>SIEM:</strong> Splunk</li>
-      <li><strong>EDR:</strong> Wazuh</li>
-      <li><strong>Network:</strong> pfSense</li>
-      <li><strong>OS:</strong> Linux & Windows Server</li>
-    </ul>
-  </div>
-
-</div>
+  {{% hextra/card title="📚 Tech Stack" link="/docs" %}}
+  * **SIEM:** Splunk
+  * **EDR:** Wazuh
+  * **Network:** pfSense
+  * **OS:** Linux & Windows Server
+  {{% /hextra/card %}}
+{{< /hextra/feature-grid >}}
 
 &nbsp;
 
