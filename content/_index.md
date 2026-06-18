@@ -21,22 +21,19 @@ toc: true
 &nbsp;
 &nbsp;
 
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card 
-    title="🐟 Cybersecurity Documentation" 
-    subtitle="Exploring pentesting, defense architectures, and system hardening." 
-    link="/docs"
-  >}}
-  {{< hextra/feature-card 
-    title="🧑‍💻 Homelab Architecture" 
-    subtitle="My topography as I further deploy more features and labs." 
-    link="/docs"
-  >}}
-  {{< hextra/feature-card 
-    title="📝 Blog & Discoveries" 
-    subtitle="Follow along my journey as I learn new concepts and threats." 
-    link="/docs"
-  >}}
+{{< hextra/feature-grid cols="2" >}}
+  {{< hextra/feature-card title="🏅 Certifications & Badges" subtitle="" link="/docs" >}}
+  
+  * &ensp; CompTIA Security+
+  * &ensp; Google IT Support Professional
+  * &ensp; Python MOOC
+
+  {{< hextra/feature-card title="📚 Tech Stack" subtitle="" link="/docs" >}}
+  
+  * &ensp; **SIEM:** Splunk
+  * &ensp; **EDR:** Wazuh
+  * &ensp; **Network:** pfSense
+  * &ensp; **OS:** Linux & Windows Server
 {{< /hextra/feature-grid >}}
 
 &nbsp;
