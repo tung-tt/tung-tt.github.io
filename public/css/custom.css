@@ -1,16 +1,80 @@
 /* --- Light Mode Background --- */
 body {
-  background-color: #e3ecff !important; /* Change to your preferred light color */
+  background-color: #edf3ff !important; /* Change to your preferred light color */
 }
 
 /* --- Dark Mode Background --- */
 /* Hextra applies a .dark class to the html tag when dark mode is active */
 html.dark body {
-  background-color: #0e1014 !important; /* Change to your preferred dark color */
+  background-color: #1b2029 !important; /* Change to your preferred dark color */
 }
 
-hr {
-  border: none;
-  border-top: 2px solid rgba(255, 255, 255, 0.2);
-  margin: 1rem 0;
+:root {
+  /* Default Primary Color (Example: a vibrant Hextra Blue) */
+  --primary-hue: 220deg;
+  --primary-saturation: 30%;
+  --primary-lightness: 35%;
+}
+
+.dark {
+  /* Optional: Adjust primary accent for dark mode */
+  --primary-hue: 30deg;
+  --primary-saturation: 50%;
+  --primary-lightness: 60%;
+}
+
+/* ==========================================================================
+   LIGHT MODE STYLES (Default)
+   ========================================================================== */
+
+/* Target the underlying individual feature card links */
+.hextra-feature-card {
+  background-color: #d8e6f9;   /* White / very light grey */
+  border: 2px solid #c9d6e7;   /* Soft slate border */
+  border-radius: 0.75rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light mode title styling */
+.hextra-feature-card h3 {
+  color: #0f172a;              /* Dark text */
+}
+
+/* Light mode subtitle description */
+.hextra-feature-card p {
+  color: #475569;              /* Medium slate text */
+}
+
+/* Light mode interactive hover response */
+.hextra-feature-card:hover {
+  background-color: #f9dfc5;
+  border-color: #f8c197;       /* Darkens border slightly */
+  transform: translateY(-2px); /* Smooth subtle lift effect */
+}
+
+
+/* ==========================================================================
+   DARK MODE STYLES (Overrides)
+   ========================================================================== */
+
+/* Target individual feature cards in Dark Mode */
+.hextra-feature-card:is(html[class~="dark"] *) {
+  background-color: #423438;   /* Dark slate background */
+  border: 2px solid #634e41;   /* Deep slate border */
+}
+
+/* Dark mode title styling */
+.hextra-feature-card h3:is(html[class~="dark"] *) {
+  color: #f8fafc;              /* Crisp white text */
+}
+
+/* Dark mode subtitle description */
+.hextra-feature-card p:is(html[class~="dark"] *) {
+  color: #94a3b8;              /* Soft grey text */
+}
+
+/* Dark mode interactive hover response */
+.hextra-feature-card:hover:is(html[class~="dark"] *) {
+  background-color: #393c5e;
+  border-color: #5d70f1;       /* Shifts border to an electric blue */
 }

@@ -5,6 +5,7 @@ title: Documentation
 
 cascade:
   type: docs
+
 ---
 
 # Documentation
@@ -12,3 +13,4 @@ cascade:
 ## Content
 
 currently have **Homelab, Labs, and more to come**
+

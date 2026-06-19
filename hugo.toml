@@ -1,6 +1,6 @@
 baseURL = 'https://tung-tt.github.io/'
 locale = 'en-us'
-title = 'Tung Tran - 2026'
+title = 'tungtran.studio'
 theme = 'hextra'
 
 [menu]

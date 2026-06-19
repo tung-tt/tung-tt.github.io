@@ -1,4 +1,4 @@
 ---
-title : "Lab"
+title : "Labs"
 description : "My lab page"
 ---
