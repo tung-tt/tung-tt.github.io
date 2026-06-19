@@ -34,3 +34,8 @@ theme = 'hextra'
         weight = 5
         [menu.main.params]
             type = "theme-toggle"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
