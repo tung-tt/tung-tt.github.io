@@ -16,18 +16,18 @@ theme = 'hextra'
         weight = 2
     
     [[menu.main]]
+        name = "Search"
+        weight = 3
+        [menu.main.params]
+            type = "search"
+    
+    [[menu.main]]
         name = "Github"
         url = "https://github.com/tung-tt"
-        weight = 3
+        weight = 4
         [menu.main.params]
             icon = "github"
     
-    [[menu.main]]
-        name = "Search"
-        weight = 4
-        [menu.main.params]
-            type = "search"
-            
     # The Dark/Light Mode Toggle Button
     [[menu.main]]
         name = "Theme Toggle"

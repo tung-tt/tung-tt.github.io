@@ -1,0 +1,10 @@
+/* --- Light Mode Background --- */
+body {
+  background-color: #e3ecff !important; /* Change to your preferred light color */
+}
+
+/* --- Dark Mode Background --- */
+/* Hextra applies a .dark class to the html tag when dark mode is active */
+html.dark body {
+  background-color: #0e1014 !important; /* Change to your preferred dark color */
+}

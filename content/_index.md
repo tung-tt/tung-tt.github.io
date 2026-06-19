@@ -8,7 +8,7 @@ toc: true
   Tung Tran \
   Cybersecurity & Creativity
 {{< /hextra/hero-headline >}}
-
+&nbsp;
 {{< hextra/hero-subtitle >}}
   Hi! My name is Tung Tran, a 25 year old Cybersecurity enthusiast and Developer based in the DMV area\
   Looking for roles in Cybersecurity Defensive Operations, including SOC, Incident Response, and Threat Hunting.
@@ -19,6 +19,7 @@ toc: true
 {{< hextra/hero-button text="Documentation" link="docs" >}} &emsp; [{{< icon name="github" className="h-12 w-12 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://github.com/yourusername) &emsp; [{{< icon name="linkedin" className="h-12 w-12 text-neutral-400 hover:text-white transition-colors align-middle" >}}](https://linkedin.com/in/yourusername)
 
 &nbsp;
+
 &nbsp;
 
 {{< hextra/feature-grid >}}
@@ -43,13 +44,43 @@ toc: true
 
 &nbsp;
 
+
+
+&nbsp;
+
+&nbsp;
+
 {{< hextra/hero-headline >}}
   About Me
 {{< /hextra/hero-headline >}}
 {{< hextra/hero-subtitle >}}
-  I started self-teaching myself firstly off of online resources such as TryHackMe, HackTheBox, and YouTube! I learn best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace.\
+  I'm self-taught, firstly off of online resources such as **TryHackMe**, **HackTheBox**, and **YouTube**!\
+  I found myself learning best through hands-on experience, so I started my own homelab with a Mini-PC found off marketplace.\
+  \
   Initially I wanted to just add some services such as DNS blocking, a NAS, or whatever I believe would be fun to have in my life. Eventually I started properly pen-testing and running multiple Virtual Machines to simulate real environments! (Well, as much as I could ☺️)
 {{< /hextra/hero-subtitle >}}
+&nbsp;
+
+&nbsp;
+
+{{< hextra/feature-grid cols = "2">}}
+  {{< hextra/feature-card 
+    title="🐟 Cybersecurity Documentation" 
+    subtitle="Exploring pentesting, defense architectures, and system hardening." 
+    link="/docs"
+  >}}
+  {{< hextra/feature-card 
+    title="🧑‍💻 Homelab Architecture" 
+    subtitle="My topography as I further deploy more features and labs." 
+    link="/docs"
+  >}}
+  {{< hextra/feature-card 
+    title="📝 Blog & Discoveries" 
+    subtitle="Follow along my journey as I learn new concepts and threats." 
+    link="/docs"
+  >}}
+{{< /hextra/feature-grid >}}
+
 &nbsp;
 
 &nbsp;

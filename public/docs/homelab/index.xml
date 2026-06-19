@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tung Tran Development Studio – _Index</title>
+    <title>Tung Tran - 2026 – Homelab</title>
     <link>http://localhost:1313/docs/homelab/</link>
-    <description>Recent content in _Index on Tung Tran Development Studio</description>
+    <description>Recent content in Homelab on Tung Tran - 2026</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jun 2026 09:27:22 -0400</lastBuildDate>
@@ -14,19 +14,6 @@
         
       
     
-    
-    <item>
-      <title>Architecture</title>
-      <link>http://localhost:1313/docs/homelab/architecture/</link>
-      <pubDate>Thu, 18 Jun 2026 09:27:44 -0400</pubDate>
-      
-      <guid>http://localhost:1313/docs/homelab/architecture/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
     
   </channel>
 </rss>
