@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tungtran.studio – CTFs</title>
+    <link>http://localhost:1313/docs/ctfs/</link>
+    <description>Recent content in CTFs on tungtran.studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jun 2026 09:27:22 -0400</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/ctfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

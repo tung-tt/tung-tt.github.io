@@ -1,31 +1,32 @@
 /* --- Light Mode Background --- */
 body {
   background-color: #edf3ff !important; /* Change to your preferred light color */
+  color: #1e2a3a !important; /* softer than pure black */
 }
 
 /* --- Dark Mode Background --- */
 /* Hextra applies a .dark class to the html tag when dark mode is active */
 html.dark body {
   background-color: #1b2029 !important; /* Change to your preferred dark color */
+  color: #c9d4e0 !important; /* softer than pure white */
 }
 
 :root {
   /* Default Primary Color (Example: a vibrant Hextra Blue) */
-  --primary-hue: 220deg;
+  --primary-hue: 210deg;
   --primary-saturation: 30%;
-  --primary-lightness: 35%;
+  --primary-lightness: 70%;
 }
 
 .dark {
   /* Optional: Adjust primary accent for dark mode */
-  --primary-hue: 30deg;
-  --primary-saturation: 50%;
-  --primary-lightness: 60%;
+  --primary-hue: -10deg;
+  --primary-saturation:14%;
+  --primary-lightness: 32%;
 }
 
-/* ==========================================================================
-   LIGHT MODE STYLES (Default)
-   ========================================================================== */
+
+/*Light Mode*/
 
 /* Target the underlying individual feature card links */
 .hextra-feature-card {
@@ -53,14 +54,12 @@ html.dark body {
 }
 
 
-/* ==========================================================================
-   DARK MODE STYLES (Overrides)
-   ========================================================================== */
+/*Dark Mode*/
 
 /* Target individual feature cards in Dark Mode */
 .hextra-feature-card:is(html[class~="dark"] *) {
   background-color: #423438;   /* Dark slate background */
-  border: 2px solid #634e41;   /* Deep slate border */
+  border: 2px solid hsl(0, 17%, 35%);   /* Deep slate border */
 }
 
 /* Dark mode title styling */
@@ -75,6 +74,28 @@ html.dark body {
 
 /* Dark mode interactive hover response */
 .hextra-feature-card:hover:is(html[class~="dark"] *) {
-  background-color: #393c5e;
-  border-color: #5d70f1;       /* Shifts border to an electric blue */
+  background-color: #355077;
+  border-color: #5e9fdb;       /* Shifts border to an electric blue */
+}
+
+
+/* Navbar - light mode */
+.hextra-nav-container,
+.hextra-nav-container.hx\:bg-transparent,
+.hextra-nav-container-blur {
+  background-color: #caddff !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+
+
+
+/* Navbar - dark mode */
+html.dark .hextra-nav-container,
+html.dark .hextra-nav-container.hx\:bg-transparent,
+html.dark .hextra-nav-container-blur {
+  background-color: #252d3a   !important;
+  box-shadow: none !important;
 }

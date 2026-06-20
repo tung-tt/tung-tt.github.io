@@ -1,12 +1,12 @@
 ---
-title: Tung Docs
+title: Tung Tran - 2026
 layout: hextra-home
 toc: true
 ---
 
 {{< hextra/hero-headline >}}
   Tung Tran\
-  Cybersecurity & Creativity
+  Security Operations & Infrastructure 
 {{< /hextra/hero-headline >}}
 
 &nbsp;
